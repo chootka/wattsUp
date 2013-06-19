@@ -1,0 +1,166 @@
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+	Watts Up - Interactive Settings File
+	:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::	-->
+
+<root>
+	
+	<!--::::::::::::::::::::::
+		GENERAL KIOSK
+	::::::::::::::::::::::::::-->
+	
+	<fullscreen>true</fullscreen>
+	<fullscreen_delay_seconds>5</fullscreen_delay_seconds>
+
+	<!--................................................................................................
+	 Default cursor state. Use 'true' for touchscreens, 'false' for mouse input. 
+	.................................................................................................-->
+	<hide_cursor>false</hide_cursor>
+
+	<!--................................................................................................
+	serial ports to use; port1 is for the dock and tally button
+	.................................................................................................-->
+	<port1>5331</port1>
+
+	<!--................................................................................................
+	idle time after which interactive resets (45)
+	.................................................................................................-->
+	<timeout_seconds>30</timeout_seconds>
+	
+	<!--......................................
+	Appliance energy use values in watts
+	.....................................-->
+	<appliance name="cell phone charger">
+		<id>004D9AF45A</id>
+		<wattage>4</wattage>
+	</appliance>
+	<appliance name="clock radio">
+		<id>004247C729</id>
+		<wattage>10</wattage>
+	</appliance>
+	<appliance name="dvd player">
+		<id>004D9AF453</id>
+		<wattage>17</wattage>
+	</appliance>
+	<appliance name="cable box">
+		<id>004D9AF42A</id>
+		<wattage>20</wattage>
+	</appliance>
+	<appliance name="aquarium">
+		<id>004D9AF3C5</id>
+		<wattage>30</wattage>
+	</appliance>
+	<appliance name="printer">
+		<id>004247C6F1</id>
+		<wattage>45</wattage>
+	</appliance>
+	<appliance name="laptop">
+		<id>004247C737</id>
+		<wattage>50</wattage>
+	</appliance>
+	<appliance name="stereo">
+		<id>004D9AF421</id>
+		<wattage>60</wattage>
+	</appliance>
+	<appliance name="humidifier">
+		<id>004247C78A</id>
+		<wattage>75</wattage>
+	</appliance>
+	<appliance name="fan">
+		<id>004D9AF45B</id>
+		<wattage>100</wattage>
+	</appliance>
+
+	<appliance name="computer">
+		<id>004D9AF45A</id>
+		<wattage>120</wattage>
+	</appliance>
+	<appliance name="refrigerator">
+		<id>004D9AF45A</id>
+		<wattage>188</wattage>
+	</appliance>
+	<appliance name="game console">
+		<id>004D9AF45A</id>
+		<wattage>195</wattage>
+	</appliance>
+	<appliance name="lcd tv">
+		<id>004D9AF45A</id>
+		<wattage>213</wattage>
+	</appliance>
+	<appliance name="blender">
+		<id>004D9AF45A</id>
+		<wattage>300</wattage>
+	</appliance>
+	<appliance name="clothes washer">
+		<id>004D9AF45A</id>
+		<wattage>425</wattage>
+	</appliance>
+	<appliance name="water heater">
+		<id>004D9AF45A</id>
+		<wattage>479</wattage>
+	</appliance>
+	<appliance name="vacuum">
+		<id>004D9AF45A</id>
+		<wattage>650</wattage>
+	</appliance>
+	<appliance name="room ac">
+		<id>004D9AF45A</id>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="cooking range">
+		<id>004D9AF45A</id>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="toaster">
+		<id>004D9AF45A</id>
+		<wattage>1100</wattage>
+	</appliance>
+	<appliance name="iron">
+		<id>004D9AF45A</id>
+		<wattage>1150</wattage>
+	</appliance>
+	<appliance name="toaster oven">
+		<id>004D9AF45A</id>
+		<wattage>1200</wattage>
+	</appliance>
+	<appliance name="microwave">
+		<id>004D9AF45A</id>
+		<wattage>1500</wattage>
+	</appliance>
+	<appliance name="coffeemaker">
+		<id>004D9AF45A</id>
+		<wattage>1550</wattage>
+	</appliance>
+	<appliance name="hairdryer">
+		<id>004D9AF45A</id>
+		<wattage>1583</wattage>
+	</appliance>
+	<appliance name="dishwasher">
+		<id>004D9AF45A</id>
+		<wattage>1800</wattage>
+	</appliance>
+	<appliance name="oven">
+		<id>004D9AF45A</id>
+		<wattage>2300</wattage>
+	</appliance>
+	<appliance name="clothes dryer">
+		<id>004D9AF45A</id>
+		<wattage>3400</wattage>
+	</appliance>
+	<appliance name="central ac">
+		<id>004D9AF45A</id>
+		<wattage>5000</wattage>
+	</appliance>
+
+	<!--......................................
+	Set reasonable max wattage, for column display purposes
+	.....................................-->
+	<max_wattage>500</max_wattage>
+		
+	<!--::::::::::::::::::::::
+		DEBUGGING
+	::::::::::::::::::::::::::-->
+	<!-- log_level must be ALL CAPS. Options: DEBUG, INFO, WARN, ERROR, FATAL -->
+	<log_level>DEBUG</log_level>
+	<lc_show_timestamp>true</lc_show_timestamp>
+
+</root>

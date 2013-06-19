@@ -1,0 +1,27 @@
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+      Solar Parks - External Text + Animations
+      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+  <english>
+    <strings>
+      <attract_cta><![CDATA[TOUCH TO BEGIN]]></attract_cta>
+      
+      <!-- LEVEL INSTRUCTIONS -->
+      <instructions_level1><![CDATA[LEVEL 1 CHALLENGE: Place three applicances in order of increasing energy use.]]></instructions_level1>
+      <instructions_level2><![CDATA[LEVEL 2 CHALLENGE: Place six applicances in order of increasing energy use.]]></instructions_level2>
+      <instructions_level3><![CDATA[LEVEL 3 CHALLENGE: Place eight applicances in order of increasing energy use.]]></instructions_level3>
+      <instructions_level4><![CDATA[LEVEL 4 CHALLENGE: Place ten applicances in order of increasing energy use.]]></instructions_level4>
+
+      <!-- TRY AGAIN COPY -->
+      <try_again><![CDATA[TRY AGAIN]]></try_again>
+
+      <!-- LEVEL COMPLETE COPY -->
+      <completed_level1><![CDATA[YOU HAVE COMPLETED LEVEL ONE!]]></completed_level1>
+      <completed_level2><![CDATA[YOU HAVE COMPLETED LEVEL TWO!]]></completed_level2>
+      <completed_level3><![CDATA[YOU HAVE COMPLETED LEVEL THREE!]]></completed_level3>
+      <completed_level4><![CDATA[CONGRATULATIONS! YOU KNOW WATTS UP!]]></completed_level4>
+    </strings>
+  </english>
+</content>
