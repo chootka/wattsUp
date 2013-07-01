@@ -1,2 +1,8 @@
+build/__old
+build/fonts.swf
+build/WattsUp.app
+build/WattsUp.exe
+build/wattsUp.html
+build/WattsUp.swf
 html-template
 installs
