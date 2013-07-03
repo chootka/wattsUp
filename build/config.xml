@@ -22,7 +22,7 @@
 	<port1>5331</port1>
 
 	<!--................................................................................................
-	idle time after which interactive resets (45)
+	idle time after which interactive resets
 	.................................................................................................-->
 	<timeout_seconds>30</timeout_seconds>
 	
@@ -79,6 +79,7 @@
 		<rating>6</rating>
 		<wattage>100</wattage>
 	</appliance>
+
 	<appliance name="computer">
 		<id>004D9AF45A</id>
 		<rating>6</rating>
@@ -179,7 +180,460 @@
 		<rating>17</rating>
 		<wattage>5000</wattage>
 	</appliance>
-		
+	<appliance name="cell phone charger">
+		<id>004D9AF527</id>
+		<rating>1</rating>
+		<wattage>4</wattage>
+	</appliance>
+	<appliance name="clock radio">
+		<id>004D9AF4F1</id>
+		<rating>2</rating>
+		<wattage>10</wattage>
+	</appliance>
+	<appliance name="dvd player">
+		<id>004D9AF53D</id>
+		<rating>2</rating>
+		<wattage>17</wattage>
+	</appliance>
+	<appliance name="cable box">
+		<id>004D9AF1E6</id>
+		<rating>2</rating>
+		<wattage>20</wattage>
+	</appliance>
+	<appliance name="aquarium">
+		<id>004D9AF1C2</id>
+		<rating>3</rating>
+		<wattage>30</wattage>
+	</appliance>
+	<appliance name="printer">
+		<id>004D9AF448</id>
+		<rating>3</rating>
+		<wattage>45</wattage>
+	</appliance>
+	<appliance name="laptop">
+		<id>004D9AF353</id>
+		<rating>4</rating>
+		<wattage>50</wattage>
+	</appliance>
+	<appliance name="stereo">
+		<id>004D9AF54F</id>
+		<rating>4</rating>
+		<wattage>60</wattage>
+	</appliance>
+	<appliance name="humidifier">
+		<id>004D9AF512</id>
+		<rating>5</rating>
+		<wattage>75</wattage>
+	</appliance>
+	<appliance name="fan">
+		<id>004D9AF384</id>
+		<rating>6</rating>
+		<wattage>100</wattage>
+	</appliance>
+
+	<appliance name="computer">
+		<id>004D9AF4EB</id>
+		<rating>6</rating>
+		<wattage>120</wattage>
+	</appliance>
+	<appliance name="refrigerator">
+		<id>004D9AF3A6</id>
+		<rating>7</rating>
+		<wattage>188</wattage>
+	</appliance>
+	<appliance name="game console">
+		<id>004D9AF390</id>
+		<rating>7</rating>
+		<wattage>195</wattage>
+	</appliance>
+	<appliance name="lcd tv">
+		<id>004D9AF38A</id>
+		<rating>8</rating>
+		<wattage>213</wattage>
+	</appliance>
+	<appliance name="blender">
+		<id>004D9AF4D5</id>
+		<rating>9</rating>
+		<wattage>300</wattage>
+	</appliance>
+	<appliance name="clothes washer">
+		<id>004D9AF521</id>
+		<rating>10</rating>
+		<wattage>425</wattage>
+	</appliance>
+	<appliance name="water heater">
+		<id>004D9AF4D6</id>
+		<rating>10</rating>
+		<wattage>479</wattage>
+	</appliance>
+	<appliance name="vacuum">
+		<id>004D9AF505</id>
+		<rating>11</rating>
+		<wattage>650</wattage>
+	</appliance>
+	<appliance name="room ac">
+		<id>004D9AF4F2</id>
+		<rating>13</rating>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="cooking range">
+		<id>004D9AF558</id>
+		<rating>13</rating>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="toaster">
+		<id>004D9AF546</id>
+		<rating>13</rating>
+		<wattage>1100</wattage>
+	</appliance>
+	<appliance name="iron">
+		<id>004D9AF35E</id>
+		<rating>13</rating>
+		<wattage>1150</wattage>
+	</appliance>
+	<appliance name="toaster oven">
+		<id>004D9AF422</id>
+		<rating>13</rating>
+		<wattage>1200</wattage>
+	</appliance>
+	<appliance name="microwave">
+		<id>004D9AF1ED</id>
+		<rating>14</rating>
+		<wattage>1500</wattage>
+	</appliance>
+	<appliance name="coffeemaker">
+		<id>004D9AF560</id>
+		<rating>14</rating>
+		<wattage>1550</wattage>
+	</appliance>
+	<appliance name="hairdryer">
+		<id>004D9AF242</id>
+		<rating>14</rating>
+		<wattage>1583</wattage>
+	</appliance>
+	<appliance name="dishwasher">
+		<id>004D9AF54B</id>
+		<rating>14</rating>
+		<wattage>1800</wattage>
+	</appliance>
+	<appliance name="oven">
+		<id>004D9AF490</id>
+		<rating>15</rating>
+		<wattage>2300</wattage>
+	</appliance>
+	<appliance name="clothes dryer">
+		<id>004D9AF56A</id>
+		<rating>16</rating>
+		<wattage>3400</wattage>
+	</appliance>
+	<appliance name="central ac">
+		<id>004D9AF4C4</id>
+		<rating>17</rating>
+		<wattage>5000</wattage>
+	</appliance>
+	<appliance name="cell phone charger">
+		<id>004D9AF532</id>
+		<rating>1</rating>
+		<wattage>4</wattage>
+	</appliance>
+	<appliance name="clock radio">
+		<id>004D9AF553</id>
+		<rating>2</rating>
+		<wattage>10</wattage>
+	</appliance>
+	<appliance name="dvd player">
+		<id>004D9AF4A7</id>
+		<rating>2</rating>
+		<wattage>17</wattage>
+	</appliance>
+	<appliance name="cable box">
+		<id>004D9AF21B</id>
+		<rating>2</rating>
+		<wattage>20</wattage>
+	</appliance>
+	<appliance name="aquarium">
+		<id>004D9AF49D</id>
+		<rating>3</rating>
+		<wattage>30</wattage>
+	</appliance>
+	<appliance name="printer">
+		<id>004D9AF3BD</id>
+		<rating>3</rating>
+		<wattage>45</wattage>
+	</appliance>
+	<appliance name="laptop">
+		<id>004D9AF392</id>
+		<rating>4</rating>
+		<wattage>50</wattage>
+	</appliance>
+	<appliance name="stereo">
+		<id>004D9AF568</id>
+		<rating>4</rating>
+		<wattage>60</wattage>
+	</appliance>
+	<appliance name="humidifier">
+		<id>004D9AF540</id>
+		<rating>5</rating>
+		<wattage>75</wattage>
+	</appliance>
+	<appliance name="fan">
+		<id>004D9AF559</id>
+		<rating>6</rating>
+		<wattage>100</wattage>
+	</appliance>
+
+	<appliance name="computer">
+		<id>004D9AF34E</id>
+		<rating>6</rating>
+		<wattage>120</wattage>
+	</appliance>
+	<appliance name="refrigerator">
+		<id>004D9AF409</id>
+		<rating>7</rating>
+		<wattage>188</wattage>
+	</appliance>
+	<appliance name="game console">
+		<id>004D9AF383</id>
+		<rating>7</rating>
+		<wattage>195</wattage>
+	</appliance>
+	<appliance name="lcd tv">
+		<id>004D9AF41A</id>
+		<rating>8</rating>
+		<wattage>213</wattage>
+	</appliance>
+	<appliance name="blender">
+		<id>004D9AF4EF</id>
+		<rating>9</rating>
+		<wattage>300</wattage>
+	</appliance>
+	<appliance name="clothes washer">
+		<id>004D9AF4C0</id>
+		<rating>10</rating>
+		<wattage>425</wattage>
+	</appliance>
+	<appliance name="water heater">
+		<id>004D9AF549</id>
+		<rating>10</rating>
+		<wattage>479</wattage>
+	</appliance>
+	<appliance name="vacuum">
+		<id>004D9AF3CB</id>
+		<rating>11</rating>
+		<wattage>650</wattage>
+	</appliance>
+	<appliance name="room ac">
+		<id>004D9AF2B4</id>
+		<rating>13</rating>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="cooking range">
+		<id>004D9AF516</id>
+		<rating>13</rating>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="toaster">
+		<id>004D9AF50C</id>
+		<rating>13</rating>
+		<wattage>1100</wattage>
+	</appliance>
+	<appliance name="iron">
+		<id>004D9AF323</id>
+		<rating>13</rating>
+		<wattage>1150</wattage>
+	</appliance>
+	<appliance name="toaster oven">
+		<id>004D9AF548</id>
+		<rating>13</rating>
+		<wattage>1200</wattage>
+	</appliance>
+	<appliance name="microwave">
+		<id>004D9AF292</id>
+		<rating>14</rating>
+		<wattage>1500</wattage>
+	</appliance>
+	<appliance name="coffeemaker">
+		<id>004D9AF4B8</id>
+		<rating>14</rating>
+		<wattage>1550</wattage>
+	</appliance>
+	<appliance name="hairdryer">
+		<id>004D9AF1F6</id>
+		<rating>14</rating>
+		<wattage>1583</wattage>
+	</appliance>
+	<appliance name="dishwasher">
+		<id>004D9AF4D2</id>
+		<rating>14</rating>
+		<wattage>1800</wattage>
+	</appliance>
+	<appliance name="oven">
+		<id>004D9AF46A</id>
+		<rating>15</rating>
+		<wattage>2300</wattage>
+	</appliance>
+	<appliance name="clothes dryer">
+		<id>004D9AF550</id>
+		<rating>16</rating>
+		<wattage>3400</wattage>
+	</appliance>
+	<appliance name="central ac">
+		<id>004D9AF531</id>
+		<rating>17</rating>
+		<wattage>5000</wattage>
+	</appliance>
+	<appliance name="cell phone charger">
+		<id>004D9AF54E</id>
+		<rating>1</rating>
+		<wattage>4</wattage>
+	</appliance>
+	<appliance name="clock radio">
+		<id>004D9AF354</id>
+		<rating>2</rating>
+		<wattage>10</wattage>
+	</appliance>
+	<appliance name="dvd player">
+		<id>004D9AF513</id>
+		<rating>2</rating>
+		<wattage>17</wattage>
+	</appliance>
+	<appliance name="cable box">
+		<id>004D9AF500</id>
+		<rating>2</rating>
+		<wattage>20</wattage>
+	</appliance>
+	<appliance name="aquarium">
+		<id>004D9AF29F</id>
+		<rating>3</rating>
+		<wattage>30</wattage>
+	</appliance>
+	<appliance name="printer">
+		<id>004D9AF56F</id>
+		<rating>3</rating>
+		<wattage>45</wattage>
+	</appliance>
+	<appliance name="laptop">
+		<id>004D9AF492</id>
+		<rating>4</rating>
+		<wattage>50</wattage>
+	</appliance>
+	<appliance name="stereo">
+		<id>004D9AF54C</id>
+		<rating>4</rating>
+		<wattage>60</wattage>
+	</appliance>
+	<appliance name="humidifier">
+		<id>004D9AF4F4</id>
+		<rating>5</rating>
+		<wattage>75</wattage>
+	</appliance>
+	<appliance name="fan">
+		<id>004D9AF4A8</id>
+		<rating>6</rating>
+		<wattage>100</wattage>
+	</appliance>
+
+	<appliance name="computer">
+		<id>004D9AF551</id>
+		<rating>6</rating>
+		<wattage>120</wattage>
+	</appliance>
+	<appliance name="refrigerator">
+		<id>004D9AF389</id>
+		<rating>7</rating>
+		<wattage>188</wattage>
+	</appliance>
+	<appliance name="game console">
+		<id>004D9AF36F</id>
+		<rating>7</rating>
+		<wattage>195</wattage>
+	</appliance>
+	<appliance name="lcd tv">
+		<id>004D9AF358</id>
+		<rating>8</rating>
+		<wattage>213</wattage>
+	</appliance>
+	<appliance name="blender">
+		<id>004D9AF4B7</id>
+		<rating>9</rating>
+		<wattage>300</wattage>
+	</appliance>
+	<appliance name="clothes washer">
+		<id>004D9AF51F</id>
+		<rating>10</rating>
+		<wattage>425</wattage>
+	</appliance>
+	<appliance name="water heater">
+		<id>004D9AF543</id>
+		<rating>10</rating>
+		<wattage>479</wattage>
+	</appliance>
+	<appliance name="vacuum">
+		<id>004D9AF3D2</id>
+		<rating>11</rating>
+		<wattage>650</wattage>
+	</appliance>
+	<appliance name="room ac">
+		<id>004D9AF4BC</id>
+		<rating>13</rating>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="cooking range">
+		<id>004D9AF4E6</id>
+		<rating>13</rating>
+		<wattage>1000</wattage>
+	</appliance>
+	<appliance name="toaster">
+		<id>004D9AF405</id>
+		<rating>13</rating>
+		<wattage>1100</wattage>
+	</appliance>
+	<appliance name="iron">
+		<id>004D9AF2B6</id>
+		<rating>13</rating>
+		<wattage>1150</wattage>
+	</appliance>
+	<appliance name="toaster oven">
+		<id>004D9AF4F0</id>
+		<rating>13</rating>
+		<wattage>1200</wattage>
+	</appliance>
+	<appliance name="microwave">
+		<id>004D9AF432</id>
+		<rating>14</rating>
+		<wattage>1500</wattage>
+	</appliance>
+	<appliance name="coffeemaker">
+		<id>004D9AF525</id>
+		<rating>14</rating>
+		<wattage>1550</wattage>
+	</appliance>
+	<appliance name="hairdryer">
+		<id>004D9AF3E4</id>
+		<rating>14</rating>
+		<wattage>1583</wattage>
+	</appliance>
+	<appliance name="dishwasher">
+		<id>004D9AF561</id>
+		<rating>14</rating>
+		<wattage>1800</wattage>
+	</appliance>
+	<appliance name="oven">
+		<id>004D9AF385</id>
+		<rating>15</rating>
+		<wattage>2300</wattage>
+	</appliance>
+	<appliance name="clothes dryer">
+		<id>004D9AF359</id>
+		<rating>16</rating>
+		<wattage>3400</wattage>
+	</appliance>
+	<appliance name="central ac">
+		<id>004D9AF4F3</id>
+		<rating>17</rating>
+		<wattage>5000</wattage>
+	</appliance>
+	
 	<!--::::::::::::::::::::::
 		DEBUGGING
 	::::::::::::::::::::::::::-->

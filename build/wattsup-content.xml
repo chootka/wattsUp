@@ -24,4 +24,8 @@
       <completed_level4><![CDATA[CONGRATULATIONS! YOU KNOW WATTS UP!]]></completed_level4>
     </strings>
   </english>
+  <flv_anims>
+    <!-- F4V ANIMATIONS -->
+    <attract><![CDATA[media/f4v/attract.f4v]]></attract>
+  </flv_anims>
 </content>
