@@ -27,6 +27,24 @@
 	<timeout_seconds>30</timeout_seconds>
 	
 	<!--......................................
+	Grid position
+	.....................................-->
+	<gridX>158</gridX>
+	<gridY>145</gridY>
+	
+	<!--......................................
+	Block dimensions
+	.....................................-->
+	<block_width>160</block_width>
+	<block_height>53</block_height>
+	
+	<!--......................................
+	Total block dimensions, with padding
+	.....................................-->
+	<total_width>161</total_width>
+	<total_height>54.7</total_height>
+
+	<!--......................................
 	Appliance energy use values in watts
 	.....................................-->
 	<appliance name="cell phone charger">
